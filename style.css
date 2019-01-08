@@ -6,4 +6,22 @@
 
 body {
   background: #f2e146;
+  padding: 50px;
+}
+
+ul li {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#modifytext {
+  font-size: 20px;
+}
+
+#modifyselect {
+  font-size: 20px;
+}
+#mybutton {
+  font-size: 20px;
+  margin-left: 10px;
 }
