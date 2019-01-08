@@ -48,7 +48,7 @@ function printData(data) {
         var notes = data[i].text;
         var idData = data[i].id;
         select.append("<option class='prova' value='" + notes + "' data-id='" + idData + "'>" + notes + "</option>");
-        wrapper.children('ul').append('<li><span class="delete" data-id="' + idData + '">x:</span>' + notes + '</li>');
+        wrapper.children('ul').append('<li><span class="delete" data-id="' + idData + '">x</span>' + ' ' +  notes + '</li>');
     }
     wrapper.append('</ul>');
 }
